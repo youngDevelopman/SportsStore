@@ -16,7 +16,7 @@ namespace SportsStore.Domain.Concrete
         {
             get
             {
-                return context.Products;
+                return context.Products1;
             }
         }
     }
