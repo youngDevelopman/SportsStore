@@ -5,7 +5,7 @@
  }
 
 <style>
-    #cardTable td{vertical-align middle; }
+    #cardTable td{vertical-align: middle; }
 </style>
 <h2>Your cart</h2>
 
@@ -34,7 +34,7 @@
                     {
                         @Html.Hidden("ProductId",line.Product.ProductID)
                         @Html.HiddenFor(x => x.ReturnUrl)
-                        <input btn btn-sm btn-warning type="submit" value="Remove" />
+                        <input class = "btn btn-sm btn-warning" type="submit" value="Remove" />
                     }
                 </td>
             </tr>
