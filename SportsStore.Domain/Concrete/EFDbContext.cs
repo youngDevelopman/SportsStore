@@ -5,6 +5,6 @@ namespace SportsStore.Domain.Concrete
 {
     class EFDbContext : DbContext
     {
-        public DbSet<Product> Products1 { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
