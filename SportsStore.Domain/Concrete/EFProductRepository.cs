@@ -36,9 +36,8 @@ namespace SportsStore.Domain.Concrete
                     dbEntry.Price = product.Price;
                     dbEntry.Category = product.Category;
                 }
-
-                context.SaveChanges();
             }
+            context.SaveChanges();
         }
     }
 }
